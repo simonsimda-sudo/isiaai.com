@@ -3,18 +3,22 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>ISIA AI | Work in progress</title>
+    <title>ISIA AI | Launching soon</title>
     <meta
       name="description"
-      content="ISIA AI is getting ready. Our new startup website is currently a work in progress."
+      content="ISIA AI is building intelligent systems for sustainable innovation. Launching soon."
     />
-    <meta property="og:title" content="ISIA AI | Work in progress" />
+    <meta property="og:title" content="ISIA AI | Launching soon" />
     <meta
       property="og:description"
-      content="Our new startup website is currently a work in progress."
+      content="Building intelligent systems for sustainable innovation. Launching soon."
     />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://www.isiaai.com/" />
+    <link
+      rel="icon"
+      href='data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="12" fill="%23101317"/><text x="50%25" y="54%25" text-anchor="middle" font-family="monospace" font-size="20" font-weight="700" fill="%2321a67a">IS</text></svg>'
+    />
     <style>
       :root {
         color-scheme: light;
@@ -96,7 +100,8 @@
       .site {
         display: inline-flex;
         align-items: center;
-        gap: 10px;
+        flex-wrap: wrap;
+        gap: 10px 12px;
         margin-top: 36px;
         padding-top: 22px;
         border-top: 1px solid var(--line);
@@ -110,6 +115,10 @@
         border-radius: 999px;
         background: var(--accent);
         box-shadow: 0 0 0 6px rgba(33, 166, 122, 0.13);
+      }
+
+      .site-divider {
+        color: #b9c2cc;
       }
 
       .code-gif {
@@ -342,11 +351,13 @@
           </div>
           <h1>Work in progress</h1>
           <p class="subtitle">
-            Our new startup website is currently being built. Something useful
-            is loading here soon.
+            Building intelligent systems for sustainable innovation. Launching
+            soon.
           </p>
           <div class="site">
             <span class="status-dot" aria-hidden="true"></span>
+            <span>system initializing...</span>
+            <span class="site-divider" aria-hidden="true">/</span>
             <span>www.isiaai.com</span>
           </div>
         </div>
